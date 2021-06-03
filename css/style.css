@@ -1,0 +1,274 @@
+@charset "UTF-8";
+/*Обнуление*/
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:focus, :active {
+  outline: none;
+}
+
+a:focus, a:active {
+  outline: none;
+}
+
+nav, footer, header, aside {
+  display: block;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input, button, textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a, a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+/*--------------------*/
+
+video {   
+	opacity: 0.8;    
+	width: 360px ;
+	height: 270px ;
+	z-index: 998;
+	margin: 0 auto;
+	right: 0;
+	top: 130px;
+ }
+ div{
+	display:inline;
+ }
+ canvas {
+	position: fixed;
+	margin: 0 auto;
+	width: 360px ;
+	height: 270px ;
+	right: 0;
+	top: 130px;
+	z-index: 999;
+	left: 0;
+}
+
+
+
+
+/* Samsung Galaxy S3 ----------- */
+@media only screen and (min-width: 320px) and (max-height: 640px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 2){
+video {    
+	top: 206px;
+	width: 229px !important;
+	height: 170px !important;
+	position: absolute !important;
+ }
+
+canvas {
+	top: 206px;
+	width: 229px !important;
+	height: 170px !important;
+	position: absolute !important; }
+}
+@media only screen and (min-width: 320px) and (max-height: 640px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 2){
+video {    
+	top: 340px;
+	width: 229px !important;
+	height: 170px !important;
+	position: absolute !important;
+ }
+
+canvas {
+	top: 340px;
+	width: 229px !important;
+	height: 170px !important;
+	position: absolute !important; }
+}
+
+
+/* Samsung Galaxy S4 ----------- */
+@media only screen and (min-width: 320px) and (max-height: 640px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 3){
+video {    
+	top: 202px;
+	width: 229px !important;
+	height: 170px !important;
+	position: absolute !important;
+ }
+
+canvas {
+	top: 202px;
+	width: 229px !important;
+	height: 170px !important;
+	position: absolute !important; }
+}
+@media only screen and (min-width: 320px) and (max-height: 640px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 3){
+video {    
+	top: 340px;
+	width: 229px !important;
+	height: 170px !important;
+	position: absolute !important;
+ }
+
+canvas {
+	top: 340px;
+	width: 229px !important;
+	height: 170px !important;
+	position: absolute !important; }
+}
+
+
+/* Samsung Galaxy S5 ----------- */
+@media only screen and (min-width: 360px) and (max-height: 640px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 3){
+video {    
+	top: 202px;
+	width: 229px !important;
+	height: 170px !important;
+	position: absolute !important;
+ }
+
+canvas {
+	top: 202px;
+	width: 229px !important;
+	height: 170px !important;
+	position: absolute !important; }
+}
+@media only screen and (min-width: 360px) and (max-height: 640px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 3){
+video {    
+	top: 340px;
+	width: 229px !important;
+	height: 170px !important;
+	position: absolute !important;
+ }
+
+canvas {
+	top: 340px;
+	width: 229px !important;
+	height: 170px !important;
+	position: absolute !important; }
+}
+
+/* Iphone -7-8- ----------- */
+@media only screen and (min-width: 414px) and (max-height: 736px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 3){
+video {    
+	top: 202px;
+	width: 229px !important;
+	height: 170px !important;
+	position: absolute !important;
+ }
+
+canvas {
+	top: 202px;
+	width: 229px !important;
+	height: 170px !important;
+	position: absolute !important; }
+}
+@media only screen and (min-width: 414px) and (max-height: 736px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 3){
+video {    
+	top: 306px;
+	width: 229px !important;
+	height: 170px !important;
+	position: absolute !important;
+ }
+
+canvas {
+	top: 306px;
+	width: 229px !important;
+	height: 170px !important;
+	position: absolute !important; }
+}
+
+/* Iphone X- ----------- */
+@media only screen and (min-width: 375px) and (max-height: 812px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 3){
+video {    
+	top: 182px;
+	width: 229px !important;
+	height: 170px !important;
+	position: absolute !important;
+ }
+
+canvas {
+	top: 182px;
+	width: 229px !important;
+	height: 170px !important;
+	position: absolute !important; }
+}
+@media only screen and (min-width: 375px) and (max-height: 812px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 3){
+video {    
+	top: 306px;
+	width: 229px !important;
+	height: 170px !important;
+	position: absolute !important;
+ }
+
+canvas {
+	top: 306px;
+	width: 229px !important;
+	height: 170px !important;
+	position: absolute !important; }
+}
+
+	/* monitors and laptops */
+@media screen and (max-width: 420px)  {
+ video {    
+	 position: fixed;
+    right: 0;
+	 top: 170px;
+    opacity: 0.8;
+    width: 360px;
+    height: 270px;
+    z-index: 998;
+ }
+
+ canvas {
+		position: fixed;
+   	width: 360px !important;
+   	height: 270px !important;
+   	right: 0;
+   	top: 175px;
+	}
+}

@@ -1,0 +1,80 @@
+
+  video {   
+	  position: fixed;
+	box-shadow: 0 0 0 2px red;
+    opacity: 0.8;    
+    width: 360px ;
+    height: 300px ;
+    z-index: 998;
+    margin: 0 auto;
+    right: 0;
+    top: 85px;
+  }
+
+  canvas {
+	box-shadow: 0 0 0 1px blue;
+    position: fixed;
+    margin: 0 auto;
+    width: 360px ;
+    height: 300px ;
+    right: 0;
+    top: 85px;
+    z-index: 999;
+    left: 0;
+}
+
+
+@media screen and (max-width:1440px) {
+}
+
+@media screen and (max-width:992px) {
+}
+
+/* @media screen and (max-width:768px) 
+} */
+
+@media screen and (max-width:715px) {
+	video {     
+	  width: 360px ;
+	  height: 220px ;
+	  top: 80px;
+	}
+	canvas {
+	  width: 360px ;
+	  height: 220px ;
+	  top: 80px;
+ }
+}
+
+/* @media screen and (max-width:576px) {
+} */
+
+@media screen and (max-width:399px) {
+	video {     
+		max-width: 95%;
+		height: 220px ;
+		top: 90px;
+	 }
+	 canvas {
+		max-width: 95%;
+		height: 220px ;
+		top: 90px;
+  }
+
+}
+
+/* @media screen and (max-width:340px) {
+} */
+
+@media screen and (max-width:298px) {
+	video {     
+		max-width: 95%;
+		height: 220px ;
+		top: 115px;
+	 }
+	 canvas {
+		max-width: 95%;
+		height: 220px ;
+		top: 115px;
+  }
+}

@@ -1,0 +1,13 @@
+<svg width="60" height="60" xmlns="http://www.w3.org/2000/svg">
+
+ <g>
+  <title>Layer 1</title>
+  <rect id="svg_11" height="40" width="40" y="10" x="10" stroke="#ffffff" fill="#1bac5a"/>
+  <rect transform="rotate(45 30 30)" id="svg_12" height="40" width="40" y="10" x="10" stroke="#ffffff" fill="#1bac5a"/>
+  <line id="svg_15" y2="9.99989" x2="38.72178" y1="10.15027" x1="21.27822" stroke="#ffffff" fill="none"/>
+  <line id="svg_16" y2="38.42433" x2="49.99647" y1="21.58228" x1="49.99647" stroke="#ffffff" fill="none"/>
+  <line id="svg_17" y2="49.99978" x2="40.37591" y1="49.99978" x1="20.82709" stroke="#ffffff" fill="none"/>
+  <line id="svg_19" y2="39.47349" x2="10.00006" y1="21.27805" x1="10.00006" stroke="#ffffff" fill="none"/>
+  <text transform="matrix(1 0 0 1 0 0)" font-style="normal" font-weight="normal" xml:space="preserve" text-anchor="start" font-family="'Montserrat ExtraLight'" font-size="20" id="svg_21" y="37.38071" x="13.47753" stroke="#ffffff" fill="#ffffff">AM</text>
+ </g>
+</svg>

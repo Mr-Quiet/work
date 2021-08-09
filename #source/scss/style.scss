@@ -243,7 +243,6 @@ body {
 
 			li {
 				text-align: center;
-				padding: 30px;
 				width: 100%;
 				position: relative;
 
@@ -258,7 +257,8 @@ body {
 				}
 
 				a {
-					padding: 29px;
+					display: block;
+					padding: 30px;
 					text-transform: uppercase;
 					font-weight: bold;
 					color: #fff;

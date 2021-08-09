@@ -778,10 +778,11 @@ body ::-webkit-scrollbar-track {
 }
 
 .item-services:hover a {
-  -webkit-transform: translateX(-50%);
-          transform: translateX(-50%);
-  visibility: visible;
-  opacity: 1;
+  text-decoration: underline;
+  font-size: 20px;
+  text-shadow: 0 0 3px #000;
+  -webkit-backdrop-filter: blur(3px);
+  backdrop-filter: blur(3px);
 }
 
 .item-services img {
@@ -796,24 +797,18 @@ body ::-webkit-scrollbar-track {
 }
 
 .item-services a {
-  padding: 15px;
-  visibility: hidden;
-  opacity: 0;
-  font-size: 18px;
+  padding: 125px 83.14px;
+  font-size: 16px;
   color: #fff;
-  text-decoration: underline;
-  text-shadow: 0 0 3px #000;
   position: absolute;
-  top: 35%;
+  top: 0;
   left: 50%;
-  -webkit-transform: translateX(-100%);
-          transform: translateX(-100%);
-  -webkit-transition-property: opacity, visibility, -webkit-transform;
-  transition-property: opacity, visibility, -webkit-transform;
-  transition-property: opacity, visibility, transform;
-  transition-property: opacity, visibility, transform, -webkit-transform;
-  -webkit-transition-duration: 0.5s;
-          transition-duration: 0.5s;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  -webkit-transition-property: all;
+  transition-property: all;
+  -webkit-transition-duration: 0.2s;
+          transition-duration: 0.2s;
 }
 
 @media screen and (max-width: 768px) {

@@ -621,9 +621,11 @@ body {
 
 	&:hover {
 		a {
-			transform: translateX(-50%);
-			visibility: visible;
-			opacity: 1;
+			text-decoration: underline;
+			font-size: 20px;
+			text-shadow: 0 0 3px #000;
+			-webkit-backdrop-filter: blur(3px);
+			backdrop-filter: blur(3px);
 		}
 	}
 
@@ -639,19 +641,15 @@ body {
 	}
 
 	a {
-		padding: 15px;
-		visibility: hidden;
-		opacity: 0;
-		font-size: 18px;
+		padding: 125px 83.14px;
+		font-size: 16px;
 		color: #fff;
-		text-decoration: underline;
-		text-shadow: 0 0 3px #000;
 		position: absolute;
-		top: 35%;
+		top: 0;
 		left: 50%;
-		transform: translateX(-100%);
-		transition-property: opacity, visibility, transform;
-		transition-duration: 0.5s;
+		transform: translateX(-50%);
+		transition-property: all;
+		transition-duration: 0.2s;
 	}
 
 

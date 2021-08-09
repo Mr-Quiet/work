@@ -45,3 +45,19 @@ function showSlides(n) {
 
 	slides[slideIndex - 1].style.display = "block";
 }
+
+
+const smoothLinks = document.querySelectorAll('a[href^="#"]');
+
+// smoothLinks.scrollIntoView({ behavior: 'smooth' });
+for (let smoothLink of smoothLinks) {
+	smoothLink.addEventListener('click', function (e) {
+		e.preventDefault();
+		const id = smoothLink.getAttribute('href');
+
+		document.querySelector(id).scrollIntoView({
+			behavior: 'smooth',
+			block: 'start'
+		});
+	});
+}

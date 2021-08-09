@@ -61,3 +61,21 @@ for (let smoothLink of smoothLinks) {
 		});
 	});
 }
+
+// window.addEventListener('scroll', () => {
+// 	let scrollDistance = window.scrollY;
+
+// 	console.log(scrollDistance);
+
+// 	document.querySelectorAll('.anchor').forEach((el, i) => {
+// 		if (el.offsetTop = document.querySelector('.nav').clientHeight <= scrollDistance) {
+// 			document.querySelectorAll('.nav ul').forEach((el) => {
+// 				if(el.classList.contains('active')) {
+// 					el.classList.remove('active');
+// 				}
+// 			});
+
+// 			document.querySelectorAll('.nav ul')[i].querySelector('li').classList.add('active');
+// 		}
+// 	});
+// });

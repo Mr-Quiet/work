@@ -43,7 +43,7 @@
 	content: '';
 	background: url('../img/active-state.png') 0%/100% auto no-repeat;
 	width: 130px;
-	height: 100%;
+	height: 20px;
 	position: absolute;
 	top: -100%;
 	left: 50%;
@@ -141,18 +141,29 @@ body {
 
 		ul {
 			display: flex;
+			align-items: center;
+			height: 100%;
 
 			li {
+				display: flex;
+				align-items: center;
 				position: relative;
+				height: 100%;
+				margin-left: 50px;
 
 				a {
+					display: flex;
+					align-items: center;
+					height: 100%;
 					text-transform: uppercase;
 					font-weight: bold;
 					color: #fff;
 					font-size: 18px;
 					position: relative;
-					padding: 25px;
+					z-index: 1;
 				}
+
+
 
 				&::after {
 					@extend %style-menu-bottom;
@@ -162,9 +173,29 @@ body {
 					@extend %style-menu-bottom;
 					visibility: visible;
 					opacity: 1;
-					top: 25px;
+					top: 65px;
 				}
+
+				// &.active {
+				// 	&::after {
+				// 		content: '';
+				// 		background: url('/img/active-state.png') 0%/100% auto no-repeat;
+				// 		width: 130px;
+				// 		height: 20px;
+				// 		position: absolute;
+				// 		top: -100%;
+				// 		left: 50%;
+				// 		transform: translateX(-50%);
+				// 		transition-property: top, opacity, visibility;
+				// 		transition-duration: 0.2s;
+				// 	}
+
+				// 	&::after {
+				// 		top: 65px;
+				// 	}
+				// }
 			}
+
 		}
 	}
 

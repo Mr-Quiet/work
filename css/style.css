@@ -221,8 +221,20 @@ body ::-webkit-scrollbar-track {
   visibility: hidden;
 }
 
+@media screen and (max-width: 992px) {
+  .anchor, .anchor1 {
+    top: -80px;
+  }
+}
+
 .anchor1 {
   top: -130px;
+}
+
+@media screen and (max-width: 992px) {
+  .anchor1 {
+    top: -110px;
+  }
 }
 
 .menu {
